@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [qa]">
+  <test thread-count="1" name="demoqa(failed)">
+    <groups>
+      <run>
+        <include name="Radio"/>
+        <include name="text"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="demoqa.demoqa.forms">
+        <methods>
+          <include name="conditions"/>
+        </methods>
+      </class> <!-- demoqa.demoqa.forms -->
+    </classes>
+  </test> <!-- demoqa(failed) -->
+</suite> <!-- Failed suite [qa] -->

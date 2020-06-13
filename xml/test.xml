@@ -1,0 +1,16 @@
+<suite name="qa" thread-count="1" parallel="test" preserve-order="true">
+<test name="demoqa">
+<groups>
+<run>
+<include name="Radio"/>
+ </run>
+ <run>
+<include name="text"/>
+ </run>
+ </groups>
+<classes>
+<class name="demoqa.demoqa.test"></class>
+<class name="demoqa.demoqa.forms"></class>
+</classes>
+</test>
+</suite>
