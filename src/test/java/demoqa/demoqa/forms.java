@@ -32,7 +32,7 @@ executor.executeScript("arguments[0].click();",loc.getForm());
 @AfterClass
 public void postconditions()
 {
-driver.close();
+
 }
 }
 
